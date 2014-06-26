@@ -1,0 +1,86 @@
+\ProvidesFile{pt-BR.lbx}
+[\abx@lbxid]
+
+\DeclareRedundantLanguages{brazilian}{brazil,portuges}
+
+\DeclareBibliographyExtras{%
+  \protected\def\bibrangedash{%
+    \textendash\penalty\hyphenpenalty}% breakable dash
+  \protected\def\bibdatedash{\bibrangedash}%
+  \let\finalandcomma=\empty
+  \let\finalandsemicolon=\empty
+  \def\mkbibordinal{\mkbibmascord}%
+  \protected\def\mkbibmascord#1{%
+    \stripzeros{#1}\textordmasculine}% \textordmasculine -> textcomp.sty
+  \protected\def\mkbibfemord#1{%
+    \stripzeros{#1}\textordfeminine}%  \textordfeminine  -> textcomp.sty
+  \protected\def\mkbibneutord{\mkbibmascord}%
+  \protected\def\mkbibdatelong#1#2#3{%
+    \iffieldundef{#3}
+      {}
+      {\stripzeros{\thefield{#3}}%
+       \iffieldundef{#2}{}{\nobreakspace de\space}}%
+    \iffieldundef{#2}
+      {}
+      {\mkbibmonth{\thefield{#2}}%
+       \iffieldundef{#1}{}{\nobreakspace de\space}}%
+    \iffieldbibstring{#1}{\bibstring{\thefield{#1}}}{\stripzeros{\thefield{#1}}}}%
+  \protected\def\mkbibdateshort#1#2#3{%
+    \iffieldundef{#3}
+      {}
+      {\mkdatezeros{\thefield{#3}}%
+       \iffieldundef{#2}{}{/}}%
+    \iffieldundef{#2}
+      {}
+      {\mkdatezeros{\thefield{#2}}%
+       \iffieldundef{#1}{}{/}}%
+    \iffieldbibstring{#1}{\bibstring{\thefield{#1}}}{\mkdatezeros{\thefield{#1}}}}%
+  \savecommand\mkbibordedition
+  \savecommand\mkbibordseries
+  \def\mkbibordedition{\mkbibfemord}%
+  \def\mkbibordseries{\mkbibfemord}%
+}
+
+\UndeclareBibliographyExtras{%
+  \restorecommand\mkbibordedition
+  \restorecommand\mkbibordseries
+}
+
+\InheritBibliographyStrings{pt}
+
+\DeclareBibliographyStrings{%
+  shorthands           = {{Lista de abreviaturas}{Abreviaturas}},
+  reviser              = {{revisor}{rev\adddot}},
+  revisers             = {{revisores}{rev\adddot}},
+  byreviser            = {{revisado por}{rev\adddotspace por}},
+  byreviewer           = {{resenhado por}{res\adddotspace}},
+  byannotator          = {{anotado por}{anot\adddot\ por}},
+  withcommentator      = {{com coment\'ario de}{com coment\adddot\ de}},
+  book                 = {{livro}{livro}},
+  part                 = {{parte}{parte}},
+  issue                = {{edi\c{c}\~ao}{edi\c{c}\~ao}},
+  reprintfrom          = {{reimpresso de}{reimpr\adddotspace de}},
+  translationof        = {{tradu\c{c}\~ao de}{trad\adddotspace de}},
+  translationas        = {{traduzido como}{trad\adddotspace como}},
+  translationfrom      = {{traduzido do}{trad\adddotspace do}},
+  reviewof             = {{resenha de}{res\adddotspace de}},
+  nodate               = {{sem\space data}{s\adddot d\adddot}},
+  mathesis             = {{disserta\c{c}\~ao de mestrado}{diss\adddot\ de mestrado}},
+  phdthesis            = {{tese de doutorado}{tese de doutorado}},
+  audiocd              = {{CD de \'audio}{CD de \'audio}},
+  urlseen              = {{acesso em}{acesso em}},
+  inpreparation        = {{em prepara\c{c}\~ao}{em prep\adddot}},
+  forthcoming          = {{aceito para publica\c{c}\~ao}{aceito para publ\adddot}},
+  inpress              = {{no prelo}{no prelo}},
+  may                  = {{maio}{maio}},
+  langcroatian         = {{croata}{croata}},
+  langfinnish          = {{finland\^es}{finland\^es}},
+  langrussian          = {{russo}{russo}},
+  fromcroatian         = {{do croata}{do croata}},
+  fromfinnish          = {{do finland\^es}{do finland\^es}},
+  fromrussian          = {{do russo}{do russo}},
+  countryeu            = {{Uni\~ao Europ\'eia}{EU}},
+  countryep            = {{Uni\~ao Europ\'eia}{EP}},
+}
+
+\endinput

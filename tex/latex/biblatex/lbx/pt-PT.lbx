@@ -1,0 +1,76 @@
+\ProvidesFile{pt-PT.lbx}
+[\abx@lbxid]
+
+% Translator's notes (Jos\'e Carlos Santos):
+% Recently (since January 2010) a change was introduced in the
+% way Portuguese is written and according to the new rules month
+% names should not be capitalized. These new rules are optional
+% at present, but they will become mandatory after 2015.
+
+\DeclareRedundantLanguages{portuguese}{portuges,brazil}
+
+\DeclareBibliographyExtras{%
+  \protected\def\bibrangedash{%
+    \textendash\penalty\hyphenpenalty}% breakable dash
+  \protected\def\bibdatedash{\bibrangedash}%
+  \let\finalandcomma=\empty
+  \let\finalandsemicolon=\empty
+  \def\mkbibordinal{\mkbibmascord}%
+  \protected\def\mkbibmascord#1{%
+    \stripzeros{#1}\textordmasculine}% \textordmasculine -> textcomp.sty
+  \protected\def\mkbibfemord#1{%
+    \stripzeros{#1}\textordfeminine}%  \textordfeminine  -> textcomp.sty
+  \protected\def\mkbibneutord{\mkbibmascord}%
+  \protected\def\mkbibdatelong#1#2#3{%
+    \iffieldundef{#3}
+      {}
+      {\stripzeros{\thefield{#3}}%
+       \iffieldundef{#2}{}{\nobreakspace de\space}}%
+    \iffieldundef{#2}
+      {}
+      {\mkbibmonth{\thefield{#2}}%
+       \iffieldundef{#1}{}{\nobreakspace de\space}}%
+    \iffieldbibstring{#1}{\bibstring{\thefield{#1}}}{\stripzeros{\thefield{#1}}}}%
+  \protected\def\mkbibdateshort#1#2#3{%
+    \iffieldundef{#3}
+      {}
+      {\mkdatezeros{\thefield{#3}}%
+       \iffieldundef{#2}{}{/}}%
+    \iffieldundef{#2}
+      {}
+      {\mkdatezeros{\thefield{#2}}%
+       \iffieldundef{#1}{}{/}}%
+    \iffieldbibstring{#1}{\bibstring{\thefield{#1}}}{\mkdatezeros{\thefield{#1}}}}%
+  \savecommand\mkbibordedition
+  \savecommand\mkbibordseries
+  \def\mkbibordedition{\mkbibfemord}%
+  \def\mkbibordseries{\mkbibfemord}%
+}
+
+\UndeclareBibliographyExtras{%
+  \restorecommand\mkbibordedition
+  \restorecommand\mkbibordseries
+}
+
+\InheritBibliographyStrings{pt}
+
+\DeclareBibliographyStrings{%
+  shorthands           = {{Lista de Abreviaturas}{Abreviaturas}},
+  byannotator          = {{notas de}{not\adddot\ de}},
+  withcommentator      = {{com coment\'arios de}{com coment\adddot\ de}},
+  reprintfrom          = {{reimpresso}{reimpr\adddot}}, % FIXME: check
+  translationof        = {{tradu\c{c}\~ao de}{trans\adddotspace de}}, % FIXME: check
+  translationas        = {{traduzido como}{trans\adddotspace como}}, % FIXME: check
+  translationfrom      = {{traduzido do}{trans\adddotspace do}}, % FIXME: check
+  nodate               = {{n\adddot d\adddot}{n\adddot d\adddot}}, % FIXME
+  mathesis             = {{tese de mestrado}{tese de mestrado}},
+  phdthesis            = {{tese de doutoramento}{tese de doutoramento}},
+  audiocd              = {{CD \'audio}{CD \'audio}},
+  urlseen              = {{acedido em}{acedido em}},
+  inpress              = {{na imprensa}{na imp\adddot}},
+  may                  = {{maio}{mai\adddot}},
+  countryeu            = {{Uni\~ao Europeia}{EU}},
+  countryep            = {{Uni\~ao Europeia}{EP}},
+}
+
+\endinput
