@@ -4774,7 +4774,6 @@
 % {<mapping>}{<language>}
 
 \def\blx@lbxinput@i#1#2{%
-  \global\csundef{blx@lng@#2}%
   \IfFileExists{#1.lbx}
     {\blx@lbxinput@ii{#2}{#1}{language '#2' -> '#1'}}
     {\blx@warning@noline{%
