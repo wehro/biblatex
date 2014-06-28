@@ -1,51 +1,13 @@
 \ProvidesFile{pt-BR.lbx}
 [\abx@lbxid]
 
-\DeclareRedundantLanguages{brazilian}{brazil,portuges}
+% Translator's notes (Jos\'e Carlos Santos):
+% Recently (since January 2010) a change was introduced in the
+% way Portuguese is written and according to the new rules month
+% names should not be capitalized. These new rules are optional
+% at present, but they will become mandatory after 2015.
 
-\DeclareBibliographyExtras{%
-  \protected\def\bibrangedash{%
-    \textendash\penalty\hyphenpenalty}% breakable dash
-  \protected\def\bibdatedash{\bibrangedash}%
-  \let\finalandcomma=\empty
-  \let\finalandsemicolon=\empty
-  \def\mkbibordinal{\mkbibmascord}%
-  \protected\def\mkbibmascord#1{%
-    \stripzeros{#1}\textordmasculine}% \textordmasculine -> textcomp.sty
-  \protected\def\mkbibfemord#1{%
-    \stripzeros{#1}\textordfeminine}%  \textordfeminine  -> textcomp.sty
-  \protected\def\mkbibneutord{\mkbibmascord}%
-  \protected\def\mkbibdatelong#1#2#3{%
-    \iffieldundef{#3}
-      {}
-      {\stripzeros{\thefield{#3}}%
-       \iffieldundef{#2}{}{\nobreakspace de\space}}%
-    \iffieldundef{#2}
-      {}
-      {\mkbibmonth{\thefield{#2}}%
-       \iffieldundef{#1}{}{\nobreakspace de\space}}%
-    \iffieldbibstring{#1}{\bibstring{\thefield{#1}}}{\stripzeros{\thefield{#1}}}}%
-  \protected\def\mkbibdateshort#1#2#3{%
-    \iffieldundef{#3}
-      {}
-      {\mkdatezeros{\thefield{#3}}%
-       \iffieldundef{#2}{}{/}}%
-    \iffieldundef{#2}
-      {}
-      {\mkdatezeros{\thefield{#2}}%
-       \iffieldundef{#1}{}{/}}%
-    \iffieldbibstring{#1}{\bibstring{\thefield{#1}}}{\mkdatezeros{\thefield{#1}}}}%
-  \savecommand\mkbibordedition
-  \savecommand\mkbibordseries
-  \def\mkbibordedition{\mkbibfemord}%
-  \def\mkbibordseries{\mkbibfemord}%
-}
-
-\UndeclareBibliographyExtras{%
-  \restorecommand\mkbibordedition
-  \restorecommand\mkbibordseries
-}
-
+\InheritBibliographyExtras{pt}
 \InheritBibliographyStrings{pt}
 
 \DeclareBibliographyStrings{%
