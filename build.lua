@@ -6,6 +6,29 @@ stdengine = "luatex"
 checkengines = {"luatex"}
 checkruns    = 2
 
+-- Non-standard structure
+docfiledir    = "./doc"
+sourcefiledir = "./tex"
+
+-- Install all files from the source tree directly
+installfiles =
+  {
+    "**/*.bbx",
+    "**/*.cbx",
+    "**/*.cfg",
+    "**/*.def",
+    "**/*.lbx",
+    "**/*.sty"
+  }
+sourcefiles  = installfiles
+unpackfiles  = { }
+
+-- Release a TDS-style zip
+packtdszip = true
+
+-- Preserve structure for CTAN
+flatten = false
+
 function runtest_tasks(name)
   return "biber -q " .. name 
 end
