@@ -1,0 +1,286 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+Package biblatex Info: LuaTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+Package biblatex Info: Input encoding 'utf8' specified.
+Package biblatex Info: Data encoding 'utf8' specified.
+(biblatex)             No need to reencode data.
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file '19-alphabetic-prefixed-bibtex.bbl' found.
+(19-alphabetic-prefixed-bibtex.bbl)
+Package biblatex Info: Reference section=0 on input line ....
+Package biblatex Info: Reference segment=0 on input line ....
+\AtBeginShipoutBox=\box...
+Package hyperref Info: Link coloring OFF on input line ....
+LaTeX Info: Redefining \ref on input line ....
+LaTeX Info: Redefining \pageref on input line ....
+LaTeX Info: Redefining \nameref on input line ....
+ (19-alphabetic-prefixed-bibtex.out)
+(19-alphabetic-prefixed-bibtex.out)
+\@outlinefile=\write...
+LaTeX Warning: Citation 'angenendt' on page 1 undefined on input line ....
+LaTeX Warning: Citation 'kastenholz' on page 1 undefined on input line ....
+LaTeX Warning: Citation 'augustine' on page 1 undefined on input line ....
+LaTeX Warning: Citation 'companion' on page 1 undefined on input line ....
+LaTeX Warning: Citation 'jaffe' on page 1 undefined on input line ....
+LaTeX Warning: Citation 'ctan' on page 1 undefined on input line ....
+Package biblatex Warning: Type 'article' not found on input line ....
+Package biblatex Warning: 'prefixnumbers' option to '\printbibliography' is no longer supported.
+(biblatex)                Please use 'labelprefix' option to '\newrefcontext'.
+LaTeX Warning: Empty bibliography on input line ....
+Package biblatex Warning: Type 'book' not found on input line ....
+Package biblatex Warning: 'prefixnumbers' option to '\printbibliography' is no longer supported.
+(biblatex)                Please use 'labelprefix' option to '\newrefcontext'.
+LaTeX Warning: Empty bibliography on input line ....
+Package biblatex Warning: Type 'collection' not found on input line ....
+Package biblatex Warning: 'prefixnumbers' option to '\printbibliography' is no longer supported.
+(biblatex)                Please use 'labelprefix' option to '\newrefcontext'.
+LaTeX Warning: Empty bibliography on input line ....
+Package biblatex Warning: 'prefixnumbers' option to '\printbibliography' is no longer supported.
+(biblatex)                Please use 'labelprefix' option to '\newrefcontext'.
+LaTeX Warning: Empty bibliography on input line ....
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line ....
+Completed box being shipped out [1]
+\vbox(682.0+0.0)x398.0, direction TLT
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\vbox(0.0+0.0)x0.0, glue set - 15.99626fil, direction TLT
+..\kern0.0
+..\kern17.0
+..\kern-1.00374
+..\hbox(0.0+0.0)x0.0, glue set - 51.99626fil, direction TLT
+...\kern0.0
+...\kern53.0
+...\kern-1.00374
+...\pdfdest name{page.1} xyz
+...\penalty 10000
+...\glue 0.0 plus 1.0fil minus 1.0fil
+..\glue 0.0 plus 1.0fil minus 1.0fil
+.\glue(\lineskip) 0.0
+.\vbox(682.0+0.0)x398.0, direction TLT
+..\glue 17.0
+..\vbox(665.0+0.0)x345.0, shifted 53.0, direction TLT
+...\vbox(12.0+0.0)x345.0, glue set 12.0fil, direction TLT
+....\glue 0.0 plus 1.0fil
+....\hbox(0.0+0.0)x345.0, direction TLT
+...\glue 25.0
+...\glue(\lineskip) 0.0
+...\vbox(598.0+0.0)x345.0, glue set 523.06958fil, direction TLT
+....\write-{}
+....\write1{\@writefile{toc}{\boolfalse {citerequest}\boolfalse {citetracker}\b
+oolfalse \ETC.}
+....\write1{\@writefile{lof}{\boolfalse {citerequest}\boolfalse {citetracker}\b
+oolfalse \ETC.}
+....\write1{\@writefile{lot}{\boolfalse {citerequest}\boolfalse {citetracker}\b
+oolfalse \ETC.}
+....\write1{\babel@aux{american}{}}
+....\pdfdest name{Doc-Start} xyz
+....\glue(\topskip) 0.15462
+....\hbox(9.84538+2.79999)x345.0, glue set 141.92616fil, direction TLT
+.....\localpar
+......\localinterlinepenalty=0
+......\localbrokenpenalty=0
+......\localleftbox=null
+......\localrightbox=null
+.....\hbox(0.0+0.0)x0.0, direction TLT
+......\glue 0.0
+.....\hbox(0.0+0.0)x0.0, direction TLT
+......\kern0.0
+......\penalty 10000
+......\hbox(0.0+0.0)x0.0, direction TLT
+.......\hbox(0.0+0.0)x0.0, shifted -18.0, direction TLT
+........\pdfdest name{section*.1} xyz
+........\penalty 10000
+......\glue 0.0 plus 1.0fil minus 1.0fil
+.....\T1/lmr/bx/n/14.4 P
+.....\T1/lmr/bx/n/14.4 r
+.....\T1/lmr/bx/n/14.4 e
+.....\discretionary (penalty 50)
+......< \T1/lmr/bx/n/14.4 -
+.....\T1/lmr/bx/n/14.4 ^^\ (ligature fi)
+.....\T1/lmr/bx/n/14.4 x
+.....\T1/lmr/bx/n/14.4 e
+.....\T1/lmr/bx/n/14.4 d
+.....\glue(\spaceskip) 5.4 plus 2.7 minus 1.79999
+.....\T1/lmr/bx/n/14.4 a
+.....\T1/lmr/bx/n/14.4 l
+.....\discretionary (penalty 50)
+......< \T1/lmr/bx/n/14.4 -
+.....\T1/lmr/bx/n/14.4 p
+.....\T1/lmr/bx/n/14.4 h
+.....\T1/lmr/bx/n/14.4 a
+.....\discretionary (penalty 50)
+......< \T1/lmr/bx/n/14.4 -
+.....\T1/lmr/bx/n/14.4 b
+.....\kern0.45 (font)
+.....\T1/lmr/bx/n/14.4 e
+.....\T1/lmr/bx/n/14.4 t
+.....\T1/lmr/bx/n/14.4 i
+.....\T1/lmr/bx/n/14.4 c
+.....\glue(\spaceskip) 5.4 plus 2.7 minus 1.79999
+.....\T1/lmr/bx/n/14.4 c
+.....\T1/lmr/bx/n/14.4 i
+.....\discretionary (penalty 50)
+......< \T1/lmr/bx/n/14.4 -
+.....\T1/lmr/bx/n/14.4 t
+.....\T1/lmr/bx/n/14.4 a
+.....\discretionary (penalty 50)
+......< \T1/lmr/bx/n/14.4 -
+.....\T1/lmr/bx/n/14.4 t
+.....\T1/lmr/bx/n/14.4 i
+.....\T1/lmr/bx/n/14.4 o
+.....\T1/lmr/bx/n/14.4 n
+.....\T1/lmr/bx/n/14.4 s
+.....\penalty 10000
+.....\glue(\parfillskip) 0.0 plus 1.0fil
+.....\glue(\rightskip) 0.0
+....\penalty 10000
+....\glue 9.90265 plus 0.86108
+....\glue(\parskip) 0.0 plus 1.0
+....\glue(\baselineskip) 1.70001
+....\hbox(7.5+2.5)x345.0, glue set 59.43623fil, direction TLT
+.....\localpar
+......\localinterlinepenalty=0
+......\localbrokenpenalty=0
+......\localleftbox=null
+......\localrightbox=null
+.....\T1/lmr/m/n/10 [
+.....\hbox(6.99048+1.94443)x51.90999, direction TLT
+......\T1/lmr/bx/n/10 a
+......\T1/lmr/bx/n/10 n
+......\discretionary (penalty 50)
+.......< \T1/lmr/bx/n/10 -
+......\T1/lmr/bx/n/10 g
+......\T1/lmr/bx/n/10 e
+......\T1/lmr/bx/n/10 n
+......\T1/lmr/bx/n/10 e
+......\T1/lmr/bx/n/10 n
+......\T1/lmr/bx/n/10 d
+......\T1/lmr/bx/n/10 t
+.....\T1/lmr/m/n/10 ;
+.....\glue(\spaceskip) 3.33333 plus 2.49998 minus 0.74074
+.....\hbox(6.99048+0.0)x52.77196, direction TLT
+......\T1/lmr/bx/n/10 k
+......\T1/lmr/bx/n/10 a
+......\T1/lmr/bx/n/10 s
+......\discretionary (penalty 50)
+.......< \T1/lmr/bx/n/10 -
+......\T1/lmr/bx/n/10 t
+......\T1/lmr/bx/n/10 e
+......\T1/lmr/bx/n/10 n
+......\discretionary (penalty 50)
+.......< \T1/lmr/bx/n/10 -
+......\T1/lmr/bx/n/10 h
+......\T1/lmr/bx/n/10 o
+......\T1/lmr/bx/n/10 l
+......\T1/lmr/bx/n/10 z
+.....\T1/lmr/m/n/10 ;
+.....\glue(\spaceskip) 3.33333 plus 2.49998 minus 0.74074
+.....\hbox(6.99048+1.94443)x47.98048, direction TLT
+......\T1/lmr/bx/n/10 a
+......\T1/lmr/bx/n/10 u
+......\discretionary (penalty 50)
+.......< \T1/lmr/bx/n/10 -
+......\T1/lmr/bx/n/10 g
+......\T1/lmr/bx/n/10 u
+......\T1/lmr/bx/n/10 s
+......\discretionary (penalty 50)
+.......< \T1/lmr/bx/n/10 -
+......\T1/lmr/bx/n/10 t
+......\T1/lmr/bx/n/10 i
+......\T1/lmr/bx/n/10 n
+......\T1/lmr/bx/n/10 e
+.....\T1/lmr/m/n/10 ;
+.....\glue(\spaceskip) 3.33333 plus 2.49998 minus 0.74074
+.....\hbox(6.99048+1.94443)x54.14546, direction TLT
+......\T1/lmr/bx/n/10 c
+......\T1/lmr/bx/n/10 o
+......\T1/lmr/bx/n/10 m
+......\discretionary (penalty 50)
+.......< \T1/lmr/bx/n/10 -
+......\T1/lmr/bx/n/10 p
+......\T1/lmr/bx/n/10 a
+......\T1/lmr/bx/n/10 n
+......\discretionary (penalty 50)
+.......< \T1/lmr/bx/n/10 -
+......\T1/lmr/bx/n/10 i
+......\T1/lmr/bx/n/10 o
+......\T1/lmr/bx/n/10 n
+.....\T1/lmr/m/n/10 ;
+.....\glue(\spaceskip) 3.33333 plus 2.49998 minus 0.74074
+.....\hbox(6.99048+1.94443)x21.08298, direction TLT
+......\T1/lmr/bx/n/10 j
+......\T1/lmr/bx/n/10 a
+......\T1/lmr/bx/n/10 ^^[ (ligature ff)
+......\T1/lmr/bx/n/10 e
+.....\T1/lmr/m/n/10 ;
+.....\glue(\spaceskip) 3.33333 plus 2.49998 minus 0.74074
+.....\hbox(6.60725+0.0)x21.56197, direction TLT
+......\T1/lmr/bx/n/10 c
+......\T1/lmr/bx/n/10 t
+......\T1/lmr/bx/n/10 a
+......\T1/lmr/bx/n/10 n
+.....\T1/lmr/m/n/10 ]
+.....\penalty 10000
+.....\glue(\parfillskip) 0.0 plus 1.0fil
+.....\glue(\rightskip) 0.0
+....\penalty -300
+....\glue 15.06923 plus 4.3055 minus 0.86108
+....\glue(\parskip) 0.0 plus 1.0
+....\glue(\baselineskip) 5.65462
+....\hbox(9.84538+0.0)x345.0, glue set 269.19131fil, direction TLT
+.....\localpar
+......\localinterlinepenalty=0
+......\localbrokenpenalty=0
+......\localleftbox=null
+......\localrightbox=null
+.....\hbox(0.0+0.0)x0.0, direction TLT
+......\glue 0.0
+.....\hbox(0.0+0.0)x0.0, direction TLT
+......\kern0.0
+......\penalty 10000
+......\hbox(0.0+0.0)x0.0, direction TLT
+.......\hbox(0.0+0.0)x0.0, shifted -18.0, direction TLT
+........\pdfdest name{section*.2} xyz
+........\penalty 10000
+......\glue 0.0 plus 1.0fil minus 1.0fil
+.....\T1/lmr/bx/n/14.4 R
+.....\T1/lmr/bx/n/14.4 e
+.....\T1/lmr/bx/n/14.4 f
+.....\discretionary (penalty 50)
+......< \T1/lmr/bx/n/14.4 -
+.....\T1/lmr/bx/n/14.4 e
+.....\T1/lmr/bx/n/14.4 r
+.....\discretionary (penalty 50)
+......< \T1/lmr/bx/n/14.4 -
+.....\T1/lmr/bx/n/14.4 e
+.....\T1/lmr/bx/n/14.4 n
+.....\T1/lmr/bx/n/14.4 c
+.....\T1/lmr/bx/n/14.4 e
+.....\T1/lmr/bx/n/14.4 s
+.....\penalty 10000
+.....\glue(\parfillskip) 0.0 plus 1.0fil
+.....\glue(\rightskip) 0.0
+....\penalty 10000
+....\glue 9.90265 plus 0.86108
+....\glue 0.0 plus 1.0fil
+....\glue 0.0
+....\glue 0.0 plus 0.0001fil
+...\glue(\baselineskip) 23.70276
+...\hbox(6.29724+0.0)x345.0, glue set 170.0fil, direction TLT
+....\glue 0.0 plus 1.0fil
+....\T1/lmr/m/n/10 1
+....\glue 0.0 plus 1.0fil
+.\kern0.0
+Package atveryend Info: Empty hook `AfterLastShipout' on input line ....
+(19-alphabetic-prefixed-bibtex.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line ....
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line ....
+Package rerunfilecheck Info: File `19-alphabetic-prefixed-bibtex.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+LaTeX Warning: There were undefined references.
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                19-alphabetic-prefixed-bibtex
+(biblatex)                and rerun LaTeX afterwards.
+Package logreq Info: Writing requests to '19-alphabetic-prefixed-bibtex.run.xml'.
