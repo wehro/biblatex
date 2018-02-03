@@ -3,10 +3,9 @@
 %
 \documentclass[a4paper,oneside]{article}
 \usepackage[T1]{fontenc}
-\usepackage[utf8]{inputenc}
 \usepackage[american]{babel}
 \usepackage{csquotes}
-\usepackage[style=alphabetic,defernumbers,backend=biber]{biblatex}
+\usepackage[style=alphabetic,backend=bibtex]{biblatex}
 \usepackage{hyperref}
 \usepackage{nameref}
 \addbibresource{biblatex-examples.bib}
@@ -32,16 +31,14 @@
 \printbibheading
 
 % And now the sub-bibliographies: we use three of them (based on the
-% entry type). Each sub-bibliography assigns a different prefix.
-\newrefcontext[labelprefix={A-}]
-\printbibliography[heading=subbibliography,title={Articles},type=article]
-\newrefcontext[labelprefix={B-}]
-\printbibliography[heading=subbibliography,title={Books},type=book]
-\newrefcontext[labelprefix={C-}]
-\printbibliography[heading=subbibliography,title={Collections},type=collection]
+% entry type). Each sub-bibliography assigns a different prefix. The
+% option is called 'prefixnumbers' because it was originally intended
+% for numeric citations only. It also works with alphabetic labels:
+\printbibliography[heading=subbibliography,title={Articles},type=article,prefixnumbers={A-}]
+\printbibliography[heading=subbibliography,title={Books},type=book,prefixnumbers={B-}]
+\printbibliography[heading=subbibliography,title={Collections},type=collection,prefixnumbers={C-}]
 
 % The catch-all sub-bibliography for all remaining types:
-\newrefcontext[labelprefix={O-}]
-\printbibliography[heading=subbibliography,title={Other Sources},filter=other]
+\printbibliography[heading=subbibliography,title={Other Sources},filter=other,prefixnumbers={O-}]
 
 \end{document}
